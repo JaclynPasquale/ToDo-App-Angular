@@ -1,0 +1,16 @@
+{
+  "name": "ToDo-App-Angular",
+  "version": "0.0.0",
+  "homepage": "https://github.com/JaclynPasquale/ToDo-App-Angular",
+  "authors": [
+    "jaclynpasquale <jaclynpasquale@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

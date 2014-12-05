@@ -9,3 +9,8 @@ td {
 th {
   padding: 15px;
 }
+
+
+.todo-image {
+  height: 150px;
+}

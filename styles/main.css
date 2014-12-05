@@ -1,16 +1,45 @@
-body{
-  margin: 0 auto;
+h1 {
+  text-align: center;
 }
 
-
-td {
-  padding: 10px;
-}
-th {
-  padding: 15px;
+tr {
+  margin: auto 0px;
 }
 
-
-.todo-image {
+.entries-image {
   height: 150px;
+  float: left;
+  border-radius: 100%;
+}
+tr {
+  display: block;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+img {
+  margin: 10px;
+}
+
+div {
+  margin: 15px;
+  display: block;
+
+}
+body {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+label {
+  display: block;
+}
+.button-add {
+  margin-top: 35px;
+  height: 35px;
+
 }

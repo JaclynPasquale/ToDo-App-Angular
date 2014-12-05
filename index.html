@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
 
-  <title>Things I Must Do</title>
+  <title>My Address Book</title>
 </head>
-  <body ng-controller="TodoAppController as todoCtrl" >
+  <body ng-controller="addressBookController as adbkCtrl" >
     <form name="myform" ng-submit="myform.$valid && todoCTrl.addNewTask()" novalidate>
 
       <div class="form-group" ng-class="{'has-error': true}">
@@ -67,7 +67,7 @@
             {{task.name}}
           </td>
           <td>
-            {{task.desc}}
+            {{task.address}}
           </td>
           <td>
             {{task.due | date:shortDate}}

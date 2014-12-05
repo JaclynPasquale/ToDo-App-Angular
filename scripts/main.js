@@ -1,35 +1,32 @@
 ;(function(){
   'use strict';
 
-  angular.module('myTodoApp', [ ])
-    .controller('TodoAppController', function(){
-    var scope = this;
+  angular.module('addressBook', [ ])
+    .controller('addressBookController', function(){
+    var vm = this;
 
 
-scope.tasks = [
+vm.entries = [
 {
-  name: 'Walk the dog',
-  desc: 'the dog will explode if you don\'t walk it',
-  due: 'tomorrow',
-  priority: 'high',
-  cost: 150.76,
+  name: 'Mittens McKitten',
+  address: '7569 Main St. Columbus, Oh 44060',
+  phone: 550-836-9088,
+  email: 'mittens@gmail.com',
   image: 'http://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg',
 },
 {
-  name: 'Feed the dog',
-  desc: 'the dog will die without food',
-  due: 'today',
-  priority: 'medium',
-  cost: 5,
-  image: 'http://jasonlefkowitz.net/wp-content/uploads/2013/07/big_cat_found_spoh-760994.jpg',
+  name: 'Mittens McKitten',
+  address: '7569 Main St. Columbus, Oh 44060',
+  phone: 550-836-9088,
+  email: 'mittens@gmail.com',
+  image: 'http://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg',
 },
 {
-  name: 'Give the dog a bath',
-  desc: 'the dog smells terrible',
-  due: 'yesterday',
-  priority: 'high',
-  cost: 1907.86,
-  image: 'http://static.tumblr.com/81b6d42b4064def5e9062d5f4410c820/betml74/Yl5ml0lia/tumblr_static_impress.jpg',
+  name: 'Mittens McKitten',
+  address: '7569 Main St. Columbus, Oh 44060',
+  phone: 550-836-9088,
+  email: 'mittens@gmail.com',
+  image: 'http://upload.wikimedia.org/wikipedia/commons/2/22/Turkish_Van_Cat.jpg',
 },
 ];
 

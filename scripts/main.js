@@ -11,7 +11,7 @@ scope.tasks = [
   name: 'Walk the dog',
   desc: 'the dog will explode if you don\'t walk it',
   due: 'tomorrow',
-  priority: 'medium / high',
+  priority: 'high',
   cost: 150.76
 },
 {
@@ -32,12 +32,18 @@ scope.tasks = [
 
 scope.addNewTask = function(){
   scope.tasks.push(scope.newTask);
-  scope.newTask = null;
+  scope.newTask = freshTask;
 }
 
 scope.removeTask = function(todo){
   var index = scope.tasks.indexOf(todo);
   scope.tasks.splice(index, 1);
+}
+
+function _freshTask(){
+  return{
+    priority: 'medium'
+  }
 }
 
 });
